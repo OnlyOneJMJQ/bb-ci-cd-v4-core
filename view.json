@@ -1,0 +1,112 @@
+{
+  "deploymentId": "e0ab110-15321451207-11-1",
+  "projectId": "3470aa79-5f1e-4630-8ba8-bcfdb036e0a4",
+  "commitHash": "e0ab110cac5c9b0daef95f3438b30387003a19a4",
+  "author": "JustUzair",
+  "status": "success",
+  "branch": "main",
+  "actionUrl": "https://github.com/JustUzair/bb-ci-cd-simple-nft-test/actions/runs/15321451207",
+  "deployment": [
+    {
+      "chainId": 1,
+      "rpcUrl": "https://rpc.test.buildbear.io/bb-ci-cd-simple-nft-test-e0ab110-b90ea8",
+      "sandboxId": "bb-ci-cd-simple-nft-test-e0ab110-b90ea8",
+      "transactions": [
+        {
+          "contractName": "MoonToken",
+          "hash": "0x9995cdb7a55581c8927d16c35ba47fcedf8b45b8eba5e9a9e185e6f101bde26a",
+          "contractAddress": "0x18de1ef6198022e5ce1221add323c721d8c7d42a"
+        },
+        {
+          "contractName": "NFTMarket",
+          "hash": "0xe791a24bba8dcfe94550ce6b829eaf649cd6215fc7367d991d6027e983d28492",
+          "contractAddress": "0x3634edf2b648d3593f8c8796af855558f61b748b"
+        },
+        {
+          "contractName": "MyNFT",
+          "hash": "0x5dc9885c5fec81c2fc0a5f2ebb733e6422562ee973451c21ed912f39a770a9db",
+          "contractAddress": "0x18e5a1cd187a39f49d780e3e0c58e376604ff85f"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-05-29T10:13:35.853Z",
+  "testCasesStatus": { "error": 0, "success": 5, "skipped": 0, "failed": 0 },
+  "testCases": [
+    {
+      "testName": "testMintNFT",
+      "processed": true,
+      "errorMessage": null,
+      "nodeId": "testmintnft-be29fba2-d5a9-4f63",
+      "result": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x985c56e72ff64b3b42f9c0bf326f99d6c64c9174fd1e5f73f5dec4c5d6d8f38a"
+      },
+      "status": "success"
+    },
+    {
+      "testName": "testListAndBuyNFT",
+      "processed": true,
+      "errorMessage": null,
+      "nodeId": "testlistandbuynft-e415a53d-bb28-4875",
+      "result": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x5f8af821109064d609efaff24f7064154e1bcfa409880d2e8d4bf8098c2df621"
+      },
+      "status": "success"
+    },
+    {
+      "testName": "testInitialSupply",
+      "processed": true,
+      "errorMessage": null,
+      "nodeId": "testinitialsupply-7db8d911-a15d-4d77",
+      "result": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x514a20291f410859f34acfce046b5f765edba15286fd19c8504ba17983125b76"
+      },
+      "status": "success"
+    },
+    {
+      "testName": "testTransfer",
+      "processed": true,
+      "errorMessage": null,
+      "nodeId": "testtransfer-47c77565-5821-4076",
+      "result": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x4375a94ec553af33d225ddaeb4f58afb8e07f560793d61d68802fe979ed9dca8"
+      },
+      "status": "success"
+    },
+    {
+      "testName": "testBurn",
+      "processed": true,
+      "errorMessage": null,
+      "nodeId": "testburn-fbdf0529-36e4-43bf",
+      "result": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x0b4b8b885a01a0fb4a10d562bca97a326b93a3f35e32db4b78e8461d783dedb1"
+      },
+      "status": "success"
+    }
+  ],
+  "logs": [],
+  "project": {
+    "settings": {
+      "notificationChannels": { "slack": { "enabled": false, "webhookUrl": "" } },
+      "projectType": "foundry"
+    },
+    "projectId": "3470aa79-5f1e-4630-8ba8-bcfdb036e0a4",
+    "projectName": "bb-ci-cd-simple-nft-test",
+    "gitUrl": "https://github.com/JustUzair/bb-ci-cd-simple-nft-test",
+    "orgName": "JustUzair",
+    "repoName": "bb-ci-cd-simple-nft-test",
+    "deployments": ["3d37ca0-15321100414-10-1", "e0ab110-15321451207-11-1"],
+    "status": "live",
+    "createdAt": "2025-05-29T08:57:44.403Z"
+  }
+}
