@@ -67,7 +67,7 @@ jobs:
         run: forge test
 
       - name: test_ci
-        uses: BuildBearLabs/buildbear_x_action@feat/modify-payload-with-new-api
+        uses: BuildBearLabs/buildbear_x_action@refactor
         with:
           network: |
             [
