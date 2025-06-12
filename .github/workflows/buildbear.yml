@@ -61,8 +61,8 @@ jobs:
         run: mkdir bbOut
         shell: bash
 
-      #   - name: Run BB Action Test
-      #     run: forge test
+      - name: Run BB Action Test
+        run: forge test
 
       - name: test_ci
         uses: BuildBearLabs/buildbear_x_action@v1.7.0
@@ -78,4 +78,3 @@ jobs:
           buildbear-api-key: "${{secrets.CICD_BUILDBEAR_TOKEN}}"
         env:
           BUILDBEAR_BASE_URL: "https://api.buildbear.io"
-          NODE_ENV: "development"
