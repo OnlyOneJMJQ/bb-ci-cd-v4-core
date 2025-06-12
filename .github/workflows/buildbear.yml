@@ -3,8 +3,6 @@ name: V4-Core-Workflow
 on: [push]
 
 # Workflow
-env:
-  BUILDBEAR_BASE_URL: "https://api.buildbear.io"
 
 jobs:
   test:
@@ -79,4 +77,5 @@ jobs:
           deploy-command: "make exe"
           buildbear-api-key: "${{secrets.CICD_BUILDBEAR_TOKEN}}"
         env:
-          API_KEY: "${{secrets.CICD_BUILDBEAR_TOKEN}}"
+          BUILDBEAR_BASE_URL: "https://api.buildbear.io"
+          NODE_ENV: "development"
