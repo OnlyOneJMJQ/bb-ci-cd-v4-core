@@ -7,6 +7,10 @@ Uniswap v4 is a new automated market maker protocol that provides extensible and
 
 The contracts in this repo are in early stages - we are releasing the draft code now so that v4 can be built in public, with open feedback and meaningful community contribution. We expect this will be a months-long process, and we appreciate any kind of contribution, no matter how small.
 
+## BuildBear Modifications
+
+This repo has been modified for use with [BuildBear's CI/CD system.](https://www.buildbear.io/cicd)
+
 ## Contributing
 
 If you’re interested in contributing please see our [contribution guidelines](./CONTRIBUTING.md)!
