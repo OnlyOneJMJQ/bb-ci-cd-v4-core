@@ -9,7 +9,7 @@ The contracts in this repo are in early stages - we are releasing the draft code
 
 ## BuildBear Modifications
 
-This repo has been modified for use with [the BuildBear CI/CD system.](https://www.buildbear.io/cicd)
+This repo has been modified for use with [BuildBear's CI/CD system.](https://www.buildbear.io/cicd)
 
 ## Contributing
 
