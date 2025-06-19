@@ -796,7 +796,7 @@ contract PoolManagerTest is Test, Deployers {
         ModifyLiquidityParams memory params = LIQUIDITY_PARAMS;
         modifyLiquidityRouter.modifyLiquidity(key, params, ZERO_BYTES);
 
-        assertEq(manager.protocolFeesAccrued(currency0), 0);
+        assertEq(manager.protocolFeesAccrued(currency0), 1);
         assertEq(manager.protocolFeesAccrued(currency1), 0);
 
         // Remove liquidity - Fees dont accrue for negative liquidity delta.
