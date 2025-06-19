@@ -75,6 +75,6 @@ jobs:
             ]
 
           deploy-command: "make exe"
-          buildbear-api-key: "${{secrets.CICD_BUILDBEAR_TOKEN}}"
+          buildbear-api-key: "${{secrets.BUILDBEAR_API_KEY}}"
         env:
           BUILDBEAR_BASE_URL: "https://api.buildbear.io"
