@@ -62,7 +62,7 @@ jobs:
         shell: bash
 
       - name: Run BB Action Test
-        run: forge test
+        run: forge test -vvv
 
       - name: test_ci
         uses: BuildBearLabs/buildbear_x_action@v1.7.0
